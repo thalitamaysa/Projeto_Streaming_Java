@@ -39,5 +39,5 @@ bibliotecas dos usuários contendo as seguintes classes:</h4>
 
 
 
-<p align="center"><img src="https://hackernoon.imgix.net/images/f2px36fy.gif" alt="gif"  width="50%" height="250"/></p>
+<p align="center"><img src='https://i.postimg.cc/tsGMz4hW/8d30fac4bf94f93d8de538d4c13b0b44.gif' border='0' alt='8d30fac4bf94f93d8de538d4c13b0b44'/>
 
