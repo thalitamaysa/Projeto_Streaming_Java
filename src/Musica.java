@@ -4,36 +4,42 @@ public class Musica extends Midia {
     private int Notas;
 
 
-    public Musica{double Duracao, String Artista, int Notas, String Titulo, int Ano;
-        Genero){
+    public Musica(String Titulo, int Ano, String Genero, double Duracao, String Artista, int Notas) {
         super(Titulo, Ano, Genero);
-        this.Duracao = Duracao;
-        this.Artista = Artista;
-        this.Notas = Notas;
-
+        Duracao = Duracao;
+        Artista = Artista;
+        Notas = Notas;
     }
-
 
     public double getDuracao() {
-        double duracao = Duracao;
-    }
+            double Duracao = 0;
+        return Duracao;
+    };
 
-    public void setDuracao() {
-        Duracao = Duracao;
-    }
-    public String getArtista() {
-        return Artista;
-    }
+        public void setDuracao() {
+        }
+        public String getArtista() {
+            return Artista;
+        }
 
-    public void setArtista(String artista) {
-        Artista = artista;
-    }
+        public void setArtista(String artista) {
+            Artista = artista;
+        }
     public int getNotas() {
+        if(this.Notas < 3){
+            System.out.println("Esta música está abaixo da média");
+        }else {
+            System.out.println("Esta música está acima da média");
+        }
         return Notas;
     }
 
-    public void setNotas(int notas) {
-        Notas = notas;
+        public void setNotas(int notas) {
+            Notas = notas;
+        }
+
+
     }
 
-}
+
+

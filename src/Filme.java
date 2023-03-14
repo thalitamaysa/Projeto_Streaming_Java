@@ -16,20 +16,24 @@ public class Filme {
 
     }
     public double getDuracao() {
+        if (this.Duracao > 50){
+            System.out.println("Este filme é um longa-metragem");
+        } else{
+            System.out.println("Este filme é um curta-metragem");
+        }
         return Duracao;
     }
-
-    public void setDuracao(double duracao) {
-        Duracao = duracao;
-    }
+//    public void setDuracao(double duracao) {
+//        Duracao = duracao;
+//    }
 
     public String getTipo() {
         return Tipo;
     }
 
-    public void setTipo(String tipo) {
-        Tipo = tipo;
-    }
+//    public void setTipo(String tipo) {
+//        Tipo = tipo;
+//    }
 
     public String[] getElenco() {
         return Elenco;
